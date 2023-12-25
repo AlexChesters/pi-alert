@@ -9,3 +9,5 @@ services:
       - TZ=Europe/London
       - PORT=20211
     image: jokobsk/pi.alert:latest
+    ports:
+      - "20211:20211"
